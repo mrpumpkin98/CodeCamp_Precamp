@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>홍길동님의 미니홈피 ;; 사이좋은 사람들, 싸이월드</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/1919c582ee.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="outerbox">
+            <div class="wrapper">
+                <div class="wrapper_left">
+                    <div class="wrapper_left_header">
+                        <div class="today">
+                            <span>TODAY</span>
+                            <span>0</span>
+                            <span> | TODAY</span>
+                            <span>12345</span>
+                        </div>
+                    </div>
+                    <div class="wrapper_left_body">
+                        <div class="left_body_header">
+                            <div class="left_body_header_gray"></div>
+                            <div class="left_body_header_line"></div>
+                        </div>
+                        <div class="left_body_profile">
+                            <div class="left_body_profile_main">
+                                <i class="fa-solid fa-user"> </i> 신재욱
+                            </div>
+                            <div class="left_body_profile_main">
+                                <i class="fa-solid fa-phone"> </i> 010-7558-***7
+                            </div>
+                            <div class="left_body_profile_main">
+                                <i class="fa-solid fa-envelope"> </i> sju4486@naver.com
+                            </div>
+                            <div class="left_body_profile_main">
+                                <i class="fa-solid fa-camera-retro"> </i> mr.punpkin_98
+                            </div>
+                        </div>
+                        <div class="left_body_footer">
+                            <div class="left_body_footer_title">오늘의 기분</div>
+                            <select name="left_body_footer_feel">
+                                <option disabled="true" selected="true">기분을 선택하세요</option>
+                                <option>기쁨</option>
+                                <option>화남</option>
+                                <option>슬픔</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper_right">
+                    <div class="wrapper_right_header">
+                        <div class="right_header_title">
+                            사이좋은 사람들 싸이월드
+                        </div>
+                        <div class="right_header_setting">
+                            사생활보호설정
+                        </div>
+                    </div>
+                    <div class="wrapper_right_body">
+                        <iframe id="contentFrame" src="./home.html"></iframe>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <div class="navigation_item" id="menuHome" onclick="menuHome()">홈</div>
+                    <div class="navigation_item" id="menuJukebox"onclick="menuJukebox()">주크박스</div>
+                    <div class="navigation_item" id="menuGame"onclick="menuGame()">게임</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox{
+    width: 670px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    background-color: white;
+    box-shadow: 7px 7px 39px
+    rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 470px;
+    height: 818px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper_header{
+    width: 100%;
+    height: 94px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper_body_text{
+    width: 100%;
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    color: #797979;
+}
+
+[name="textbox"] {
+    width: 100%;
+    height: 57px;
+    border: 1px solid white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0068FF;
+}
+
+.line{
+    border-top: 1px solid #CFCFCF;
+
+}
+
+.wrapper_body_radio{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+[name="gender"]{
+    width: 40px;
+    height: 20px;
+    border: 1px solid #D2D2D2;
+    background: #EBEBEB;
+}
+
+.wrapper_body_check{
+    width: 100%;
+    height: 85px;
+}
+
+.body_check_checkbox{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #797979;
+
+}
+
+[name="inf"]{
+    width: 30px;
+}
+
+button{
+    width: 470px;
+    height: 90px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    color: #0068FF;
+    
+    
+}
