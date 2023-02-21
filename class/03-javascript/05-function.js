@@ -1,8 +1,7 @@
 
+let isStarted = false;
 
 let greet_1=()=> {
-
-    let isStarted = false
 
 
     if(isStarted===false){

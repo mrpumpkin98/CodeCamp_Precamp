@@ -79,6 +79,12 @@ html, body{
     margin-top: 50px;
  }
 
+ #fail_1,#fail_2,#fail_3,#fail_4{
+    font-size: 7px;
+    color: red;
+    text-align: center;
+ }
+
 .body__phoneBox {
     width: 100%;
     display: flex;
@@ -116,9 +122,10 @@ html, body{
  #send {
     width: 120px;
     height: 40px;
-    color: #0068FF;
     border-radius: 7px;
     margin-left: 20px;
+    color: #0068FF;
+    background: #FFFFFF;
 
  }
 
@@ -139,9 +146,10 @@ html, body{
  #receive {
     width: 120px;
     height: 40px;
-    color: #0068FF;
     border-radius: 7px;
     margin-left: 20px;
+    color: #0068FF;
+    background: #FFFFFF;
  }
 
   [name="selectBox"] {
@@ -182,6 +190,7 @@ html, body{
     font-weight: 400;
     font-size: 18px;
     color: #0068FF;
+    background: #FFFFFF;
 
     border-radius: 7px;
  }
